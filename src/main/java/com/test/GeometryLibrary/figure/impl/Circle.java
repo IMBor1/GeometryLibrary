@@ -1,6 +1,8 @@
-package com.test.GeometryLibrary;
+package com.test.GeometryLibrary.figure.impl;
 
-public class Circle implements Figure{
+import com.test.GeometryLibrary.figure.Figure;
+
+public class Circle implements Figure {
     private double radius;
 
     public Circle(double radius) {
@@ -15,5 +17,9 @@ public class Circle implements Figure{
     }
     public double getRadius() {
         return radius;
+    }
+
+    public void setRadius(double radius) {
+        this.radius = radius;
     }
 }

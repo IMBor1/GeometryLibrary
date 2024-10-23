@@ -1,6 +1,8 @@
-package com.test.GeometryLibrary;
+package com.test.GeometryLibrary.figure.impl;
 
-public class Rectangle implements Figure{
+import com.test.GeometryLibrary.figure.Figure;
+
+public class Rectangle implements Figure {
     private double width;
     private double height;
 
@@ -19,5 +21,13 @@ public class Rectangle implements Figure{
     }
     public double getHeight() {
         return height;
+    }
+
+    public void setWidth(double width) {
+        this.width = width;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
     }
 }

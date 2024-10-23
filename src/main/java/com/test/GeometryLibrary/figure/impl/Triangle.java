@@ -1,6 +1,8 @@
-package com.test.GeometryLibrary;
+package com.test.GeometryLibrary.figure.impl;
 
-public class Triangle implements Figure{
+import com.test.GeometryLibrary.figure.Figure;
+
+public class Triangle implements Figure {
     private double sideA;
     private double sideB;
     private double sideC;
@@ -25,5 +27,17 @@ public class Triangle implements Figure{
     }
     public double getSideC() {
         return sideC;
+    }
+
+    public void setSideA(double sideA) {
+        this.sideA = sideA;
+    }
+
+    public void setSideB(double sideB) {
+        this.sideB = sideB;
+    }
+
+    public void setSideC(double sideC) {
+        this.sideC = sideC;
     }
 }
